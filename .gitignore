@@ -1,1 +1,11 @@
 # Created by .gitignore support plugin (hsz.mobi)
+.idea/encodings.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/realtime-notepad.iml
+.idea/workspace.xml
+.idea/modules.xml
+.gitignore
+node_modules
+package.json
+README.md
