@@ -43,6 +43,7 @@ display:block;
 	line-height: 61px;
 	color: #fff;
 	text-decoration: none;
+    transition: all 0.2s linear;
 }
 .nav-list-item a:hover{
 	background-color:#555;
