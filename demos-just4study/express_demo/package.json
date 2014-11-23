@@ -17,5 +17,5 @@
     "connect-mongo":                "*",
     "mongoose":                     "*"
   }
-    
+
 }
