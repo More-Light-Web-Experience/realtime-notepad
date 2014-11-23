@@ -52,6 +52,7 @@ display:block;
 	line-height: 60px;
 	color:#fff;
 	text-decoration: none;
+    transition: all 0.2s linear;
 }
 
 .nav-list-item a:hover  {
