@@ -1,0 +1,44 @@
+{
+  "name": "realtime-notepad",
+  "version": "1.0.0",
+  "description": "simple notepad realtime ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+    "dependencies": {
+        "grunt" :                       "~0.4.5",
+        "grunt-contrib-jshint":         "^0.10.0",
+        "grunt-contrib-nodeunit":       "^0.4.1",
+        "grunt-contrib-uglify":         "^0.5.1",
+        "grunt-contrib-cssmin":         "*",
+        "grunt-contrib-sass":           "*",
+        "grunt-contrib-uglify":         "*",
+        "grunt-contrib-watch":          "*",
+        "grunt-cssc":                   "*",
+        "grunt-htmlhint":               "*",
+        "matchdep":                     "*",
+        "mongodb":                      "*",
+        "connect-mongo":                "*"
+    },
+    "devDependencies": {
+        "grunt" :                       "~0.4.5",
+        "grunt-contrib-cssmin":         "*",
+        "grunt-contrib-sass":           "*",
+        "grunt-contrib-uglify":         "*",
+        "grunt-contrib-watch":          "*",
+        "grunt-cssc":                   "*",
+        "grunt-htmlhint":               "*",
+        "matchdep":                     "*"
+    },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/More-Light-Web-Experience/realtime-notepad.git"
+  },
+  "author": "prog_time",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/More-Light-Web-Experience/realtime-notepad/issues"
+  },
+  "homepage": "https://github.com/More-Light-Web-Experience/realtime-notepad"
+}
