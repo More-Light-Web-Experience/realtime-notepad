@@ -5,11 +5,14 @@
 <link rel="stylesheet" type="text/css" href="./assets/css/index_wangfan.css">
 <title>notepad</title>
 </head>
+<body>
 
 	<div class="fixed-header">
-		
+        <h1 class="page-title">realtie-notepad  在线实时记事本 By Wanggang & Wangfan</h1>
 	</div>
-	<div class="back-top"></div>
+
+	<div id="elevator" class="back-top">上上️</div>
+
 	<div class="nav">
 		<ul class="nav-list">
 			<li class="nav-list-item"><a href="#"><span >sdf</span>标签</a></li>
@@ -23,20 +26,20 @@
 
 	<div class="content">
 		<div class="content-main">
-			<ul class="content-list">
-				<li class="content-list-item"><div contenteditable="true"></div></li>
-				<li class="content-list-item"><div contenteditable="true"></div></li>
-				<li class="content-list-item"><div contenteditable="true"></div></li>
-				<li class="content-list-item"><div contenteditable="true"></div></li>
-				<li class="content-list-item"><div contenteditable="true"></div></li>
-				<li class="content-list-item"><div contenteditable="true"></div></li>
+			<ul class="content-list" id="content-list">
+				<li data-id="list-item-1" class="content-list-item"><div contenteditable="true"></div></li>
+				<li data-id="list-item-2" class="content-list-item"><div contenteditable="true"></div></li>
 			</ul>
+
+            <a class="btn-add-input" href="javascript:;">add user input area</a>
 		</div>
 	</div>
+
 	<div class="footer">
-		
 	</div>
 
-<body>
+
+<script src="./assets/js/jquery.js" type="text/javascript"></script>
+<script src="./assets/js/common.js" type="text/javascript"></script>
 </body>
 </html>

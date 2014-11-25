@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>Welcome to <%= title %></p>
+    <form action="editSave" method="post">
+
+        <input id="id" name="id" type="hidden" value="<%= user._id %>">
+        <p>
+            <span>name:</span>
+            <br>
+            <input id="name" name="name" type="text" value="<%= user.name %>">
+        </p>
+        <p>
+            <span>password:</span>
+            <br>
+            <input id="password" name="password" type="password" value="<%= user.password %>">
+        </p>
+        <p>
+            <span>age:</span>
+            <br>
+            <input id="age" name="age" type="text" value="<%= user.age %>">
+        </p>
+        <p>
+            <span>des:</span>
+            <br>
+            <textarea id="des" name="des" type="text"><%= user.des %></textarea>
+        </p>
+        <p><input type="submit" value="submit"><input type="reset" value="reset"/></p>
+    </form>
+  </body>
+</html>
+
