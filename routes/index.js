@@ -64,9 +64,6 @@ router.post('/editNote', function(req, res) {
     }
 });
 
-
-
-
 /*login*/
 router.get('/login', function(req, res) {
     res.render('login', { title: 'login' });
